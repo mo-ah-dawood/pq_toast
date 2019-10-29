@@ -1,8 +1,8 @@
-name: pq_toast
+name: example
 description: A simple package to show toast message on the web ,support flutter web
 version: 1.0.0
-author: Mohamed dawood <mo.ah.dawood@gmail.com>
-homepage: https://github.com/mo-ah-dawood/pq_toast
+author: 
+homepage: 
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -10,10 +10,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-    
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-
-flutter:
+  pq_toast:
+    path: ../
 
