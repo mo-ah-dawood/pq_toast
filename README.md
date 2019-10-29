@@ -13,7 +13,7 @@ pq_toast: any
 ## Usage
 
 ```python
-import 'package:pq_toast/web_toast.dart';
+import 'package:pq_toast/pq_toast.dart';
 
 Toast.showErrorToast("Success message");
 Toast.showSuccessToast("Error message");
