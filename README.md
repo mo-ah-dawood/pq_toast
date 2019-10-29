@@ -1,14 +1,24 @@
-# pq_toast
+# PQ_Toast
 
-A new Flutter package project.
+A simple package to show toast  message on the web ,support flutter web
 
-## Getting Started
+## Installation
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```bash
+add this to your pubspec.yaml 
+pq_toast: any
+```
+
+## Usage
+
+```python
+import 'package:pq_toast/web_toast.dart';
+
+Toast.showErrorToast("Success message");
+Toast.showSuccessToast("Error message");
+Toast.showInfoToast("Info message");
+Toast.showWarningToast("Warning message");
+```
+
