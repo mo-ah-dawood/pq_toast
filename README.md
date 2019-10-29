@@ -4,7 +4,6 @@ A simple package to show toast  message on the web ,support flutter web
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
 add this to your pubspec.yaml 
